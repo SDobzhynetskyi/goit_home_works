@@ -1,21 +1,21 @@
 body {
-  width: 100%;
+  width: auto;
   background-color: lightgrey;
 }
 .content {
-  width: 33%;
+  width: 430px;
   margin: 0 auto;
   background-color: white;
 
 }
 .head {
-  padding-top: 30px;
+  padding-top: 35px;
   margin: 0 20px;
   text-align: center;
 }
 .head img{
-  width: 200px;
-  height: 130px;
+  width: 150px;
+  height: 90px;
 
 }
 .head h1 {
@@ -24,16 +24,16 @@ body {
   }
   .head p {
     text-align: left;
-    padding-left: 35px;
+    padding-left: 30px;
   }
 
 .info {
   text-align: left;
-  margin: 0 35px;
-  padding: 5px 20px;
+  margin: 0 40px;
+  padding: 5px 10px;
   border-top: 1px solid black;
 }
 li {
   line-height: 1.5;
-  margin-left: -20px;
+  margin-left: -25px;
   }
