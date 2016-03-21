@@ -3,7 +3,6 @@
   padding: 0;
 }
  body {
-   width: 1280px;
    height: 1060px;
    background-image: url("../img/background.jpg");
    background-repeat: repeat-x;
@@ -16,6 +15,7 @@
   position: relative;
   overflow: hidden;
   margin: 0 auto;
+  border-bottom: 3px solid #031d28;
   }
 .head {
   color: #128aa7;
@@ -52,24 +52,42 @@
 .menu {
   display: block;
   height: 30px;
-  background-color: #323232;
+  background-color: #333333;
   list-style-type: none;
   font-family: sans-serif;
-  /*margin-top: -3px;*/
+  border-bottom: 2px solid #000;
+}
+li a {
+  text-decoration: none;
+  color: #ffffff;
 }
 .menu_list > li {
   position: relative;
   display: inline-block;
   color: #ffffff;
   padding: 5px 35px;
-}
+  }
 .submenu {
   display: none;
   position: absolute;
   top: 30px;
+  left: 0;
+  width: 150px;
+  height: 30px;
+  text-align: left;
+  background-color: #333333;
+  z-index: 1;
+}
+  .submenu li {
+    height: 30px;
+    width: 100%;
+    padding: 10px 0 0 10px;
+    color: #ffffff;
+    background-color: #323232;
   }
 .menu_list > li:hover .submenu {
   display: block;
+  border-top: 2px solid #000;
 }
 
 .content {
@@ -77,13 +95,13 @@
   width: 100%;
   float: left;
   text-align: justify;
-  overflow: hidden;
-}
+  }
 .content h1 {
   text-align: center;
   font-family: sans-serif;
   font-weight: bold;
   color: #424c43;
+
 }
 .leftside {
   width: 20%;
@@ -93,12 +111,14 @@
   padding: 10px;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
+  overflow: hidden;
 }
 .centralside {
   width: 60%;
   float:left;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
+  overflow: hidden;
 }
 .rightside {
   width: 20%;
@@ -108,6 +128,7 @@
   padding: 10px;
   padding-bottom: 20000px;
   margin-bottom: -20000px;
+  overflow: hidden;
 }
 .footer {
   color: #ffffff;
