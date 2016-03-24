@@ -1,0 +1,23 @@
+table {
+  margin: 0 auto;
+  width: 600px;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+td {
+  border: 10px solid #000;
+}
+.top {
+  border-top: none;
+}
+.left{
+  border-left: none;
+}
+.right {
+  border-right: none;
+}
+
+.bottom {
+  border-bottom: none;
+}

@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Helvetica Neue Regular", Arial, Tahoma, sans-serif;
+}
+
+.page {
+  width: 1215px;
+  height: 1064px;
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  position: relative;
+}
+
+.top {
+  display: inline-block;
+  text-align: right;
+  position: absolute;
+  top: 0;
+  height: 36px;
+  width: 100%;
+  background-color: #074d8a;
+}
+.top ul {
+  display: inline-block;
+  position: relative;
+  padding-right: 15px;
+}
+.top li{
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  color: #60b5ed;
+  height: 100%;
+}
+.menu {
+  border-right: 1px solid #56a2dc;
+}
+.menu a {
+  display: inline-block;
+  height: auto;
+  padding: 9px 15px;
+  text-decoration: none;
+  color: #60b5ed;
+}
+.menu a:hover {
+  background-color: #4eabda;
+  color: #ffffff;
+}
+.option a {
+  position: relative;
+  display: inline-block;
+  height: auto;
+  text-decoration: none;
+  text-align: left;
+  top: 0;
+  color: #ffffff;
+  padding: 9px 0;
+}
+.option li {
+  padding: 0 15px;
+  color: #ffffff;
+}
+.option li:first-child {
+  padding-left: 40px;
+}
+.option li:hover {
+  background: linear-gradient(#51b1dc, #2e7ac4);
+  border-left: 1px solid #51b1dc;
+  border-bottom: 1px solid #51b1dc;
+  border-right: 1px solid #51b1dc;
+}
+.option li:nth-child(2):hover a:hover {
+  text-decoration: underline;
+}
+.option img {
+  float: left;
+  position: absolute;
+  height: 20px;
+  margin-left:  -30px;
+}
+.input_form {
+  position: relative;
+  top: 250px;
+  width: 560px;
+  height: 610px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.up {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #a4b193;
+  font-size: 24px;
+  font-style: 900;
+  color: #fff;
+  line-height: 60px;
+}
+.log_fb {
+  width: 100%;
+  height: 110px;
+  text-align: center;
+  position: relative;
+}
+.log_fb img {
+  display: block;
+  margin: 35px auto;
+}
+.log_fb span {
+  position: absolute;
+  left: 273px;
+  top: 60px;
+  color: #999999;
+}
+.info {
+  text-align: center;
+  margin: 0 auto;
+  width: 310px;
+  margin-top: -15px;
+}
+.personal_info {
+  width: 275px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue Regular", Arial, Tahoma, sans-serif;
+}
+.personalised input {
+  width: 233px;
+  height: 35px;
+  color: #fff;
+  background: #101010;
+  border: 1px solid #101010;
+  border-bottom: 1px solid #4a4948;
+  margin: 10px 0;
+  padding: 0 20px;
+}
+.personalised input:hover {
+  background-color: #1b5288;
+  border: 1px solid #689bcc;
+  /*border-bottom: 1px solid #689bcc;*/
+  box-shadow:0 0 15px #2f7bc5;
+  background: linear-gradient(#1e4b76, #2f7bc5);
+}
+input[placeholder] {
+  font-family: "Helvetica Neue Regular", Arial, Tahoma, sans-serif;
+}
+.mark {
+  color: #fff;
+  font-size: 14px;
+  line-height: 35px;
+  text-align: left;
+}
+.click {
+  text-align: center;;
+}
+.click input {
+  width: 150px;
+  height: 35px;
+  background: linear-gradient(#51b1dc, #2e7ac4);
+  border-radius: 2px;
+  border: 1px solid #51b1dc;
+  color: #fff;
+  margin: 7px auto;
+  font-family: "Helvetica Neue Regular", Arial, Tahoma, sans-serif;
+}
+.info span {
+  color: #fff;
+  font-size: 11px;
+  word-spacing: 0.3px;
+}
