@@ -106,21 +106,69 @@ body {
   text-align: center;
   position: relative;
 }
-.log_fb img {
-  display: block;
-  margin: 35px auto;
+.log_fb a {
+  display: inline-block;
+  text-decoration: none;
+  margin: 30px 0px 10px 0px;
 }
-.log_fb span {
-  position: absolute;
-  left: 273px;
-  top: 60px;
+.log_fb a .f {
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  width: 38px;
+  height: 35px;
+  background: linear-gradient(#3e5895,#2d4078);
+  border-top: 1px solid #7789b9;
+  border-right: 1px solid #213c71;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  float: left;
+  display: inline-block;
+}
+.f span {
+  display: inline-block;
+  padding: 2px 0 0 4px;
+  }
+.log_fb a .click_in {
+  font-size: 14px;
+  font-weight: bold;
+  word-spacing: 5px;
+  letter-spacing: 1px;
+  color: #fff;
+  width: 237px;
+  height: 35px;
+  background: linear-gradient(#3e5895,#2d4078);
+  border-top: 1px solid #7789b9;
+  border-left: 1px solid #4c68a9;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  float: left;
+  }
+  .click_in p {
+    display: inline-block;
+    padding-top: 7px;
+  }
+
+.click_in span {
+  font-weight: normal;
+}
+.lines {
+  display: inline-block;
+  width: 123px;
+  border-top: 2px solid #666666;
+  border-bottom: 2px solid #000;
+  margin-bottom: 3px;
+}
+
+.ou span {
+  font-size: 14px;
   color: #999999;
 }
+
 .info {
   text-align: center;
   margin: 0 auto;
   width: 310px;
-  margin-top: -15px;
 }
 .personal_info {
   width: 275px;
@@ -167,7 +215,8 @@ input[placeholder] {
   font-family: "Helvetica Neue Regular", Arial, Tahoma, sans-serif;
 }
 .info span {
-  color: #fff;
+  color: #ccc;
   font-size: 11px;
   word-spacing: 0.3px;
+
 }
