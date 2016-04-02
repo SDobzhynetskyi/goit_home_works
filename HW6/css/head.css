@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: lightgrey;
+}
+.page {
+  width: 1000px;
+  height: auto;
+  margin: 0 auto;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+}
+.top {
+  width: 900px;
+  height: 30px;
+  margin: 0 auto;
+  padding-top: 20px;
+  text-align: left;
+}
+.phones {
+  width: 293px;
+  padding-top: 9px;
+  float: left;
+}
+.phones p {
+  letter-spacing: 0.4px;
+  font-size: 18px;
+  color: #5e696d;
+  padding-left: 4px;
+}
+.phones img, p {
+  display: inline-block;
+  float: left;
+}
+.phones img {
+  padding-left: 2px;
+}
+.login {
+  width: 495px;
+  height: 26px;
+  margin: 3px 0 0 18px;
+  border-radius: 3px;
+  float: left;
+  background-color: blue;
+  background: linear-gradient(#1f6787,#0d3458);
+  box-shadow: 1px 1px 1px #4e647a, 3px 3px 3px #b4b4b4;
+}
+.login img {
+  padding: 5px 2px 0 5px;
+}
+.login #username, #password {
+  width: 109px;
+  height: 14px;
+  font-size: 11px;
+  margin: 4px 0 0 4px;
+  }
+.login span {
+  display: inline-block;
+  margin-left: 11px;
+  padding-top: 7px;
+  font-size: 11px;
+  letter-spacing: 0.6px;
+  color: #fff;
+}
+.login span > a {
+  text-decoration: none;
+  color: #fff;
+}
+.login > a {
+  color: #bfbfbf;
+  font-size: 11px;
+  display: inline-block;
+  margin: 0 21px;
+}
+.login img, form {
+  display: inline-block;
+  float: left;
+}
+.navi {
+  width: 75px;
+  height: 20px;
+  margin: 4px 1px 1px 15px;
+  float: left;
+  border: 1px solid #bdc4c7;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: -1px 0px 5px #cbcbcb, 2px 1px 5px #cbcbcb;
+  }
+  .navi a {
+    display: inline-block;
+    padding: 0 3px;
+  }
+
+  .logo {
+    width: 907px;
+    height: 237px;
+    margin: 10px auto 6px;
+  }

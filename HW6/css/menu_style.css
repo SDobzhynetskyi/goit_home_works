@@ -1,0 +1,60 @@
+.menu {
+  /*text-align: right;*/
+  width: 910px;
+  height: 33px;
+  margin: 0 auto;
+  text-transform: full-width;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  border: 0.5px solid #0d1642;
+  border-radius: 3px;
+  background: linear-gradient(#576068 10%, #262a2e 25%, #000 75%);
+}
+.menu ul {
+  margin-left: 113px;
+}
+.menu li {
+  display: inline-block;
+  float: left;
+  padding: 9px 14px;
+}
+.menu li:hover {
+  border-radius: 25px;
+  background: linear-gradient(#206988,#0c3256);
+  text-decoration-color: white;
+}
+.menu li:hover a {
+  color: #fff;
+}
+.menu li a {
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  color: #b1bcc0;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.basket {
+  float: right;
+  margin: 5px 15px;
+  font-family: Arial,sans-serif;
+  letter-spacing: 0.5px;
+}
+.basket img {
+  display: inline-block;
+  float: left;
+  padding: 2px 2px 0 0;
+}
+.basket p {
+  display: inline-block;
+  float: left;
+  color: #929b9f;
+  font-size: 12px;
+  text-transform: lowercase;
+  padding: 4px 0 0 10px;
+}
+.menu span {
+  color: #12466a;
+  margin-right: 7px;
+}

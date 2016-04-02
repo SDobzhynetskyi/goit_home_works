@@ -1,0 +1,34 @@
+.brend_logos {
+  text-align: center;
+}
+.brend_logos img {
+  display: inline-block;
+  margin: 42px 3px 20px 6px;
+  vertical-align: top;
+}
+.footer {
+  width: 907px;
+  height: 100px;
+  margin: 0 auto;
+  background-color: #213a4d;
+  text-align: center;
+}
+.footer li {
+  display: inline-block;
+  margin: 8px 5px;
+}
+.footer li a, .footer span {
+  color: #bec6c9;
+  font-size: 12px;
+  text-decoration: none;
+}
+.footer a:hover {
+  color: #52abcb;
+}
+.footer p {
+  display: inline-block;
+  font-size: 10px;
+  color: #7f4740;
+  float: none;
+  margin: 0 auto;
+}
