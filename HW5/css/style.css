@@ -202,7 +202,10 @@ input[placeholder] {
   text-align: left;
 }
 .click {
-  text-align: center;;
+  text-align: center;
+}
+.click input:hover {
+  cursor: pointer;
 }
 .click input {
   width: 150px;
