@@ -132,7 +132,6 @@ body {
 .log_fb a .click_in {
   font-size: 14px;
   font-weight: bold;
-  word-spacing: 5px;
   letter-spacing: 1px;
   color: #fff;
   width: 237px;
@@ -146,11 +145,15 @@ body {
   }
   .click_in p {
     display: inline-block;
-    padding-top: 7px;
+    padding-top: 9px;
   }
 
 .click_in span {
   font-weight: normal;
+}
+.click_in span:nth-child(2) {
+  margin-left: 15px;
+  font-weight: bold;
 }
 .lines {
   display: inline-block;
