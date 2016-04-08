@@ -21,3 +21,27 @@ td {
 .bottom {
   border-bottom: none;
 }
+.width75 {width: 75px;}
+.width100 {width: 100px;}
+.width150 {width:150px;}
+.width175 {width: 175px;}
+.width200 {width: 200px;}
+.width250 {width: 250px;}
+.width325 {width: 325px;}
+.width375 {width: 375px;}
+
+.height37 {height: 37px;}
+.height38 {height: 38px;}
+.height50 {height: 50px;}
+.height75 {height: 75px;}
+.height113 {height: 113px;}
+.height125 {height: 125px;}
+.height150 {height: 150px;}
+.height175 {height: 175px;}
+.height250 {height: 250px;}
+.height325 {height: 325px;}
+
+.yellow {background-color: yellow;}
+.red {background-color: red;}
+.blue {background-color: blue;}
+.darkgrey {background-color: darkgrey;}
