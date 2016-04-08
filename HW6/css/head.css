@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, sans-serif;
 }
 body {
   background-color: lightgrey;
@@ -25,7 +26,8 @@ body {
   float: left;
 }
 .phones p {
-  letter-spacing: 0.4px;
+  /*letter-spacing: 0.4px;*/
+  font-weight: 300;
   font-size: 18px;
   color: #5e696d;
   padding-left: 4px;
@@ -73,6 +75,9 @@ body {
   font-size: 11px;
   display: inline-block;
   margin: 0 21px;
+}
+.login a:hover {
+  text-decoration: underline;
 }
 .login img, form {
   display: inline-block;

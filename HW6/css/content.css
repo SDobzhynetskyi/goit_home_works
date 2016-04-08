@@ -57,6 +57,7 @@
   color: #0c3256;
 }
 .goods {
+  font-family: "Lucida Sans Unicode";
   float: left;
   width: 527px;
   height: 627px;
@@ -64,8 +65,44 @@
   background: linear-gradient(#e5e7e8,#93a7b0);
   margin: 13px -1px 0 0;
 }
-.goods img {
-  margin: 15px 3px 5px 22px;
+.goods__box {
+  width: 141px;
+  height: 193px;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  margin: 15px 0 -5px 25px;
+}
+figure {
+  width: 138px;
+  height: 128px;
+  border: 1px solid #a5b0b3;
+  border-radius: 9px;
+  background-color: #fff;
+}
+.goods__box img {
+  margin-top: 3px;
+}
+figcaption {
+  color: #206988;
+  font-family: Lucida Sans Unicode;
+  font-weight: bolder;
+  font-size: 15px;
+  text-transform: capitalize;
+  line-height: 13px;
+  display: block;
+  margin: 0 auto;
+}
+figcaption span {
+  color: #1f2528;
+  text-transform: capitalize;
+  font-weight: normal;
+}
+.goods__box > span {
+  color: #206988;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
 }
 .right_side {
   width: 185px;
@@ -89,6 +126,9 @@
 .click {
   clear: both;
   padding: 10px 0px 0px 25px;
+}
+.click input:hover {
+  cursor: pointer;
 }
 .click input {
   clear: both;
