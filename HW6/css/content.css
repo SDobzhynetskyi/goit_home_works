@@ -60,10 +60,11 @@
   font-family: "Lucida Sans Unicode";
   float: left;
   width: 527px;
-  height: 627px;
+  /*height: 627px;*/
   border-radius: 3px;
   background: linear-gradient(#e5e7e8,#93a7b0);
   margin: 13px -1px 0 0;
+  padding-bottom: 10px;
 }
 .goods__box {
   width: 141px;
